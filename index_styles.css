@@ -7,6 +7,7 @@ div#navbaru {
     justify-content: space-between;
     height: 70px;
     border-bottom: 1px solid black;
+    padding: 0 75px;
 }
 
 div#navbaru div {
@@ -18,18 +19,28 @@ div.nav-item {
     padding-top: 5px;
 }
 
+div.nav-item a {
+    color: black;
+}
+
+div.nav-item a:hover {
+    text-decoration: none;
+}
+
 div#insta-logo {
     margin-left: 10px;
 }
 
 div#main-feed {
     height: 100%;
-    margin: 0 22.5%;
+    margin: 0 27.5%;
+    margin-top: 40px;
 }
 
+/* POST STYLES  */
+
 div.insta-post {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    border: 1px solid black;
 }
 
 div.post-header {
@@ -50,7 +61,7 @@ div.user-prof-pic {
 
 div.user-name {
     align-self: center;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 div.post-pic {
@@ -61,3 +72,35 @@ div.post-pic {
 div.post-pic img {
     width: 100%;
 }
+
+
+div.top {
+    display: flex;
+    position: relative;
+}
+
+div.top div {
+    margin: 10px;
+    cursor: pointer;
+}
+
+div.top div span {
+    font-size: 175%;
+}
+
+div.share {
+    position: absolute;
+    right: 0;
+}
+
+div.comment {
+    display: flex;
+    margin: 5px 0;
+}
+
+div.description {
+    padding-left: 15px;
+}
+
+
+
